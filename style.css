@@ -58,3 +58,20 @@
 .image {
     border-radius: 50%;
 }
+
+/**Section headers for the entire website (Standardise)**/
+.header{
+    background-color: #00E5FF;
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    font-size: 30px;
+    padding-top: 5px;
+}
+
+h3 {
+    font-size: 25px;
+    padding-bottom: 5px;
+}
