@@ -1,0 +1,37 @@
+/** CSS for navigation bar **/
+.ul {
+    list-style-type: none;
+    margin: 15px;
+    padding: 15px;
+    overflow: hidden;
+    background-color: black;
+}
+
+.li {
+    float: left;
+}
+  
+.a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 17px 17px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.about:hover {
+    background-color: red;
+}
+
+.education:hover {
+    background-color: orange;
+}
+
+.work:hover {
+    background-color: green;
+}
+
+.projects:hover {
+    background-color:purple;
+}
