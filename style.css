@@ -35,3 +35,26 @@
 .projects:hover {
     background-color:purple;
 }
+/** Creating CSS for top section headers **/
+.tophead {
+    background-color: #FBFF8D;
+}
+
+/** Creating flex containers **/
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+/**Header split content**/
+.split {
+    flex: wrap;
+    margin:25px;
+    font-size: 25px;
+    text-align: center;
+}
+
+/**Image CSS**/
+.image {
+    border-radius: 50%;
+}
