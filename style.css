@@ -68,11 +68,35 @@
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 40px;
     padding-top: 25px;
 }
 
 h3 {
-    font-size: 25px;
+    font-size: 35px;
     padding-bottom: 25px;
+}
+
+h4 {
+    font-size: 30px;
+}
+
+/** CSS for lists excluding navbar **/
+.list {
+    list-style: none;
+    overflow: hidden;
+    padding-right: 40px;
+}
+
+.flexitem {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    padding: 70px;
+    text-align: center;
+    border: 5px solid;
+    margin: 10px;
+    font-size: 27px;
+    max-width: 40%;
+    background-color: #00E5FF;
 }
