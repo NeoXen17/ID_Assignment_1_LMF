@@ -35,6 +35,11 @@
 .projects:hover {
     background-color:purple;
 }
+
+.contacts:hover {
+    background-color: blue;
+}
+
 /** Creating CSS for top section headers **/
 .tophead {
     background-color: rgb(236, 236, 236);
