@@ -39,37 +39,49 @@
     </header>
 
     <!--Slideshow oh god so hard to implement-->
-    <section>
-        <div> <!--First Slide-->
-            <div>
+    <section class="slideshow-container">
+        <div class="schoolSlides fade container"> <!--First Slide-->
+            <div class="flexItem">
                 <img src="P1025357.jpg" alt="Picture of Princess Elizabeth Primary School">
             </div>
-            <div>
+            <div class="flexItem">
                 <h5>Princess Elizabeth Primary School</h5>
                 <p>Located at Bukit Batok West Avenue 3, I was a student at this school from 2011 to 2016. I graduated with a PSLE certificate.</p>
             </div>
 
         </div>
-        <div> <!--Second Slide-->
-            <div>
+        <div class="schoolSlides fade container"> <!--Second Slide-->
+            <div class="flexItem">
                 <img src="WhatsApp Image 2020-07-11 at 3.53.28 PM.jpeg" alt="Picture of Yusof Ishak Secondary School">
             </div>
-            <div>
+            <div class="flexItem">
                 <h5>Yusof Ishak Secondary School</h5>
                 <p>Located at 11 Bukit Batok Street 25, I was a student there from 2017 to 2020. I graduated with a Cambridge GCE O Level certificate.</p>
             </div>
         </div>
-        <div> <!--Third Slide-->
-            <div>
+        <div class="schoolSlides fade container"> <!--Third Slide-->
+            <div class="flexItem">
                 <img src="ak_nap_0305.jpg" alt="Picture of Ngee Ann Polytechnic">
             </div>
-            <div>
+            <div class="flexItem">
                 <h5>Ngee Ann Polytechnic</h5>
                 <p>Located at 535 Clementi Rd, I am currently studying there as a year 1 in the
                     School of Infocomm Technology in the course of Information Technology. I am 
                     expected to graduate in the year 2023.
                 </p>
             </div>
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
         </div>
 
     </section>
