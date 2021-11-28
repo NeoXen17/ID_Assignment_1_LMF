@@ -28,12 +28,60 @@
         <p class="headerItem">I would love to hear from you</p>
     </section>
 
-    <section class="container">
-        <div>
-            
+    <header class="header" style="background-color: rgb(236, 236, 236); color: black;">
+        <h2 style="font-size: 30px; padding: 30px;">
+          Send me a message!
+        </h2>
+        <h3 style="font-size: 25px; padding: 30px;">
+          I will respond within 3 working days!
+        </h3>
+    </header>
+
+    <section class="container" style="flex-direction: row;">
+        <div class="contactItem" style="max-width: 40%;"> <!--Form field-->
+            <div class="container">
+                <form action="/action_page.php" method="get">
+                <input type="text" id="name" placeholder="Your Full Name" required>
+                <input type="text" id="company" placeholder="Company Name">
+                <input type="email" id="email" placeholder="Email" autocomplete="on" required>
+                <input style="height: 200px; border: 1px solid;" type="text" id="message" placeholder="Your message" required>
+                <br>
+                <input type="submit" value="Submit" style="border: none;">
+                </form>
+            </div>
         </div>
-        <div>
-            
+
+        <div class="contactItem" style="max-width: 40%"> <!--Contact Information-->
+            <div class="container" style="flex-flow: row wrap;">
+                <div class="detailItem">
+                    <img src="undraw_Location_tracking_re_n3ok.png" style="width: 200px; height: auto;">
+                </div>
+
+                <div class="detailItem" style="width: 300px; padding-top: 50px;">
+                    <p>Blk 140 Bukit Batok Street 11<br>Singapore</p>
+                </div>
+
+                <div class="detailItem" >
+                    <img src="undraw_Mobile_life_re_jtih.png" style="width: 200px; height: auto;">
+                </div>
+
+                <div class="detailItem" style="width: 300px; padding-top: 50px;">
+                    <p>(65) 8493-7087</p>
+                </div>
+
+                <div class="detailItem">
+                    <img src="undraw_Opened_re_i38e.png" style="width: 200px; height: auto;">
+                </div>
+
+                <div class="detailItem" style="width: 300px; padding-top: 50px;">
+                    <p>lee.ming.feng.04@gmail.com<br>S10219107@connect.np.edu.sg</p>
+                </div>
+            </div>
         </div>
+    </section>
+
+    <hr>
+    <section>
+        
     </section>
 </body>
