@@ -115,9 +115,17 @@ h4 {
 }
 
 .slideContent {
+    position: absolute;
+    right: 100px;
     box-sizing: border-box;
-    padding: 100px;
+    padding: 120px;
 }
+
+.slideImg {
+    position: absolute;
+    right: 1000px;
+}
+
 /**----------------------------------------------- Slideshow ----------------------------------------------------**/
 .slideShow {
     position: relative;
