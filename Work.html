@@ -8,7 +8,6 @@
   <title>My Education History</title>
   <meta name="description" content="Assignment 1 Main Page">
   <meta name="author" content="Lee Ming Feng">
-  <link rel="stylesheet" href="normalize.css">
   <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body>
@@ -24,6 +23,84 @@
         </ul> 
     </nav>
 
+    <section style="background-image: url(cubes-3381438_1920.jpg);background-attachment: fixed; height: 350px; padding-top: 150px; padding-bottom: 75px; color: white;">
+        <h1 class="headerItem">My Work Experience</h1>
+        <br>
+        <p class="headerItem">Jobs and internships I have taken up with various companies</p>
+    </section>
     
+    <header class="header" style="background-color: black; color: #FBFF8D;">
+        <h2>
+          Part-Time Jobs
+        </h2>
+        <h3>
+          Jobs that I have taken up as a temporary staff during the holidays
+        </h3>
+    </header>
+
+    <section class="slideShow" style="height: 850px;">
+        <div class="mySlides fade">
+            <div class="description">
+                <img class="workImg" src="sankyu.jpeg" alt="Sankyu TIDC">
+                <h5 style="font-size: 35px;"><mark>Sankyu</mark></h5>
+                <h6 style="font-size: 35px;"><mark>Warehouse assistant, picker, packer</mark></h6>
+                <p><mark>Work from 16 December 2020 to 31 March 2021 at Tuas Loop Avenue 13 and Tuas Integrated Distribution Centre (TIDC).</mark></p>
+            </div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="description">
+                <img class="workImg" src="watsons.jpeg" alt="ALOG commodity hub" style="right: 80px;">
+                <h5 style="font-size: 35px;"><mark>Watsons</mark></h5>
+                <h6 style="font-size: 35px;"><mark>Warehouse assistant, picker, packer</mark></h6>
+                <p><mark>Work from 6 September 2021 to 7 October 2021 at ALOG Commodity Hub, 24 Penjuru Road</mark></p>
+            </div>
+        </div>
+    </section>
+
+    <div style="text-align:center">
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+    </div>
     
+    <header class="header" style="background-color: black;">
+        <h2>
+          Full-Time & Internships
+        </h2>
+        <h3>
+          Jobs that I have taken up pre and post graduation
+        </h3>
+    </header>
+
+    <section class="comingSoon">
+        <p>Coming Soon!</p>
+        <p>Stay Tuned for more updates!</p>
+    </section>
+    
+    <br>
+    <br>
+    <br>  
+
+    <script>
+        var slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+          setTimeout(showSlides, 7000); // Change image every 2 seconds
+        }
+        </script>
 </body>
+</html>
