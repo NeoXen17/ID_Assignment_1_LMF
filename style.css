@@ -664,7 +664,6 @@ mark {
     text-align: center;
     width: 1900px;
     overflow: auto;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
   
@@ -688,3 +687,17 @@ mark {
   }
   
   .show {display: block;}
+
+.appRedesign {
+   display: block; 
+}
+
+.sql {
+    display: block; 
+}
+
+.quote {
+    font-size: 30px;
+    text-align: center;
+    padding: 300px;
+}
