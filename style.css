@@ -348,7 +348,7 @@
     display: none;
   }
   
-/** Start of my own css styling **/
+/** Start of my own css styling ------------------------------------------------------------------------------------------------------------------**/
 
 /** CSS for navigation bar **/
 .ul {
@@ -361,7 +361,7 @@
 .li {
     float: left;
 }
-  
+
 .a {
     display: block;
     color: white;
@@ -369,6 +369,10 @@
     padding: 20px 20px;
     text-decoration: none;
     font-size: 30px;
+}
+
+.activePage {
+    background-color: grey;
 }
 
 .about:hover {
