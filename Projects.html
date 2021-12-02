@@ -39,21 +39,21 @@
     </header>
 
     <div class="dropdown">
-        <button onclick="myFunction()" class="dropbtn">↓ Select Project ↓</button>
+        <button onclick="myFunction()" class="dropbtn">↓ List of projects ↓</button>
         <div id="myDropdown" class="dropdown-content">
-          <div id="appDrop"><a href="">App Redesign</a></div>
+          <div id="appDrop" onclick="changeContent()"><a href="">App Redesign</a></div>
 
-          <div id="sqlDrop"><a href="">SQL Injection Attacks</a></div>
+          <div id="sqlDrop" onclick="changeContent()"><a href="">SQL Injection Attacks</a></div>
           
         </div>
     </div>
-
+    <br>
     <br>
     <hr>
     <br>
 
     <section>
-        <div id="appRedesign">
+        <div class="appRedesign">
             <header class="headerItem" style="background-color: black; color: orange; padding: 17px;">
                 <h5 style="font-size: 35px;">
                     Advertising a mobile application
@@ -85,7 +85,7 @@
             </div>
         </div>
 
-        <div id="sql">
+        <div class="sql">
             <header class="headerItem" style="background-color: black; color: rgb(0, 255, 128); padding: 17px;">
                 <h5 style="font-size: 35px;">
                     A lesson on SQL Injection
@@ -111,7 +111,15 @@
           Projects that I pursue in my own time
         </h3>
     </header>
+    <section class="quote" style="background-image: url(background-6795626_1920.png); background-attachment: fixed; color: white; padding: 200px;">
+        <h5 style="font-size: 35px;">I am currently developing a third person shooter for mobile platforms with the Unity 3D Engine</h5>
+        <p>It is planned to have realistic graphics, physics, advanced NPC AI and shooting mechanics</p>
+    </section>
 
+    <br>
+    <br>
+    <br>
+    
     <script src="script.js"></script>
 </body>
 </html>
