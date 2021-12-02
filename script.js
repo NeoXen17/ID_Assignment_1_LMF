@@ -58,7 +58,7 @@ var sq = document.getElementById('sqlDrop').addEventListener('click', changeCont
 
 
 function changeContent() {
-    if (document.querySelector('appRedesign') == 'none') {
+    if (document.querySelector('appRedesign') === 'none') {
       document.querySelector('.sql').style.display = 'none';
       document.querySelector('appRedesign').style.display = 'block';
     }
