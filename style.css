@@ -624,3 +624,67 @@ mark {
     right: 160px;
     height: 800px;
 }
+
+/** Clickable Image **/
+#sqlImg {
+    opacity: 1;
+    transition: 0.5 ease;
+    transition-duration: 0.5s;
+    backface-visibility: hidden;
+}
+
+#sqlImg:hover {
+    opacity: 0.8;
+}
+
+.dropbtn {
+    background-color: black;
+    color: white;
+    padding:10px;
+    width: 1900px;
+    text-align: center;
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: rgb(41, 40, 40);
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    text-align: center;
+    width: 1900px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: white;
+    font-size: 25px;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+  }
+
+  /** Different hover colour **/
+  #appDrop a:hover {
+    background-color: orange;
+    color: black;
+  }
+
+  #sqlDrop a:hover{
+    background-color: rgb(0, 255, 128);
+    color: black;
+  }
+  
+  .show {display: block;}
