@@ -351,7 +351,8 @@
 /** Start of my own css styling ------------------------------------------------------------------------------------------------------------------**/
 
 /** Add fonts here **/
-
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 
 /** CSS for navigation bar **/
 .ul {
@@ -372,6 +373,8 @@
     padding: 20px 20px;
     text-decoration: none;
     font-size: 30px;
+    font-family: 'Oswald';
+    font-weight: 600;
 }
 
 .activePage {
@@ -429,21 +432,35 @@
     color: #00E5FF;
     line-height: 0.5;
 }
+h1 {
+    font-family: 'Oswald';
+    font-weight: 700;
+}
 
 h2 {
     font-size: 40px;
     padding-top: 25px;
+    font-family: 'Oswald';
+    font-weight: 600;
 }
 
 h3 {
     font-size: 35px;
     padding-bottom: 25px;
+    font-family: 'Oswald';
+    font-weight: 500;
 }
 
 h4 {
     font-size: 30px;
+    font-family: 'Raleway';
+    font-weight: 800;
 }
 
+h5 {
+    font-family: 'Raleway';
+    font-weight: 800;
+}
 
 /** CSS for lists excluding navbar **/
 .list {
@@ -466,11 +483,20 @@ h4 {
 
 .contentAlign {
     padding-top: 50px;
+    font-family: 'Raleway';
+    font-weight: 300;
 }
+
+#skillContent {
+    font-family: 'Raleway';
+    font-weight: 500;
+}
+
 /** Flexboxes at the top of the page **/
 .headerItem {
     font-size: 40px;
     text-align: center;
+    font-family: 'Oswald';
 }
 
 .slideContent {
@@ -478,6 +504,8 @@ h4 {
     right: 100px;
     box-sizing: border-box;
     padding: 120px;
+    font-family: 'Raleway';
+    font-weight: 300;
 }
 
 .slideImg {
@@ -568,6 +596,10 @@ h4 {
     text-align: center;
     font-size: 25px;
     margin: 20px;
+    font-family: 'Raleway';
+    font-weight: 300;
+    background-color: rgb(236, 236, 236);
+    border-radius: 20px;
 }
 
 input {
@@ -597,14 +629,18 @@ input {
     text-align: center;
     box-sizing: border-box;
     padding: 20px;
+    font-family: 'Raleway';
+    font-weight: 300;
 }
 
 .comingSoon {
     max-width: 1700px;
     border: 5px dotted;
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
     padding: 100px;
+    font-family: 'Oswald';
+    font-weight: 400;
 }
 
 /** For header text that cannot be seen due to background image **/
@@ -707,4 +743,5 @@ mark {
     font-size: 30px;
     text-align: center;
     padding: 300px;
+    font-family: 'Oswald';
 }
