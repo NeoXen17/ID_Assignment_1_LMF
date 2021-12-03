@@ -51,7 +51,7 @@ window.onclick = function(event) {
   }
 }
 
-
+/* Content change */
 var ad = document.getElementById('appDrop').addEventListener('click', changeContent, false);
 
 var sq = document.getElementById('sqlDrop').addEventListener('click', changeContent, true);
@@ -67,4 +67,9 @@ function changeContent() {
       document.querySelector('appRedesign').style.display = 'none';
       document.querySelector('.sql').style.display = 'block';
     }
+}
+
+/* Contact Submit Confirmation */
+function sbc() {
+  alert("Your contacts have been submitted. I will get back with you soon!:)")
 }
