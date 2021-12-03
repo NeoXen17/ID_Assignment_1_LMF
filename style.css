@@ -818,12 +818,17 @@ mark {
     .slideContent {
         position: static;
         right: 0px;
-        padding: 50px;
+        padding: 10px !important;
+        height: 300px !important;
     }
 
     .slideImg {
         position: static;
         right: 0px;
+    }
+
+    #NPImg {
+        height: 300px !important;
     }
 
     .slideShow {
@@ -916,5 +921,24 @@ mark {
         font-size: 20px !important;
         width: 410px !important;
     }
+
+    #columnContainer {
+        flex-flow: column wrap;
+    }
     
+    .certFlex {
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+    }
+
+    .split {
+        margin: 10px;
+        padding-top: 20px !important;
+        font-size: 20px !important;
+    }
+
+    .image {
+        width: 150px !important;
+    }
 }
