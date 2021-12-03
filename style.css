@@ -828,6 +828,7 @@ mark {
 
     .contactItem {
         margin: 10px;
+        padding-left: 30px;
     }
 
     .detailItem {
