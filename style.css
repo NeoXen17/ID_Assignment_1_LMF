@@ -426,6 +426,12 @@
 }
 
 /**Section headers for the entire website (Standardise)**/
+#topHead {
+    font-family: 'Oswald';
+    font-weight: 100;
+    padding-left: 50px;
+}
+
 .header{
     background-color: white;
     text-align: center;
@@ -689,6 +695,8 @@ mark {
     font-size: 30px;
     border: none;
     cursor: pointer;
+    font-family: 'Raleway';
+    font-size: 900;
   }
   
   .dropbtn:hover, .dropbtn:focus {
@@ -708,6 +716,8 @@ mark {
     width: 1900px;
     overflow: auto;
     z-index: 1;
+    font-family: 'Raleway';
+    font-weight: 300;
   }
   
   .dropdown-content a {
@@ -731,17 +741,12 @@ mark {
   
   .show {display: block;}
 
-.appRedesign {
-   display: block; 
-}
-
-.sql {
-    display: block; 
-}
-
 .quote {
     font-size: 30px;
     text-align: center;
     padding: 300px;
     font-family: 'Oswald';
 }
+
+/** Media Queries **/
+
