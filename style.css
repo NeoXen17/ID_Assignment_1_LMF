@@ -836,6 +836,11 @@ mark {
         height: 550px !important;
     }
 
+    /* Do not display buttons in 576px */
+    .prev, .next {
+        display: none; 
+    }
+
     .description {
         width: 450px;
         font-size: 20px !important;
