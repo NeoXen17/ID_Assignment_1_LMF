@@ -759,6 +759,16 @@ mark {
         line-height: 0.1;
     }
 
+    /* Adjust section header h2 and h3 */
+
+    #adjustH2 {
+        font-size: 25px !important;
+    }
+
+    #adjustH3 {
+        font-size: 20px !important;
+    }
+
     .container {
         flex-flow: column-wrap;
     }
@@ -818,6 +828,18 @@ mark {
 
     .slideShow {
         position: static;
+        height: 550px !important;
+    }
+
+    .description {
+        width: 450px;
+        font-size: 20px !important;
+    }
+
+    .workImg {
+        height: 500px !important;
+        width: 410px !important;
+        right: 10px !important;
     }
 
     .dot {
